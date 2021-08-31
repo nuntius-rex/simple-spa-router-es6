@@ -3,7 +3,7 @@
     import {routes} from "./controller.js";
 
     //To override the root directory, if other than root folder:
-    const rootDir="/";
+    const rootDir=""; //
 
     //Discern Initial Route:
     var route=rootDir+window.location.pathname;
@@ -37,7 +37,7 @@
           //console.log('/'+linkData.link);
 
           //build the path:
-          var path='/'+linkData.link;
+          var path="/"+linkData.link;
           //console.log(path);
 
           //Filter the routes by path:
