@@ -11,6 +11,8 @@ view/home.View.js
 
 The advantage of this pattern for the SPA (Single Page Application), is that the components can now be standardized as separate entities and have proper separation of concern. They also can load separately with the same standardized structure without variable conflicts, etc.
 
+![Alt](/public/img/screenshot.png "Screenshot of Simple SPA Router ES6")
+
 ## How to Run
 
 ```
