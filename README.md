@@ -1,6 +1,6 @@
 # Simple SPA Router ES6<br>(No Front End Framework Needed)
 
-In a previous repo I created a [Simple SPA Router](https://github.com/nuntius-rex/simple-spa-router.git) but although the design, in basic form, does create routing, it does not use the ES6 Modules methodology. This example, takes things a bit further by not only adding items in ES6, but also by utilizing an MVC (Model, View, Controller) inspired pattern.  
+In a previous repo I created a [Simple SPA Router](https://github.com/nuntius-rex/simple-spa-router.git) but although the design, in basic form, does create routing, it does not use the ES6 Modules methodology. This example, takes things a bit further by not only converting the modules to ES6 modules, but also by utilizing an MVC (Model, View, Controller) inspired pattern.  
 
 The individual pages are made up of Models and Views that are controlled by a Controller for the application. The Model is the processing and data (no actual data API calls shown in this example), The View is the simple display. For example, the Home page is made up of the following two files:
 
