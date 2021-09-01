@@ -13,6 +13,12 @@ import contactTemp from '../js/view/contact.View.js';
 export var routes=[
   {
     name: "home",
+    path:"/",
+    content: homeTemp.defDisplay(),
+    proc: homeMod
+  },
+  {
+    name: "home",
     path:"/home",
     content: homeTemp.defDisplay(),
     proc: homeMod
