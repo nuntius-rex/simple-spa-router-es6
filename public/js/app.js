@@ -17,9 +17,12 @@
 
     //Root HTML Target:
     const rootDiv = document.getElementById('root');
-    //Default page load to initial home route:
-    rootDiv.innerHTML = routes[0].content;
-
+    const result = routes.filter( function(item){
+        if(item.path==route){
+          return item;
+        }
+    });
+    rootDiv.innerHTML = result[0].content;
 
     //spa_menu listeners:
     const mainMenuArray=document.querySelectorAll('.spa_menu a');
